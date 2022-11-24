@@ -1,10 +1,10 @@
-import ServiceFunciones from '../service/Funciones.js'
+import serviceFunciones from '../service/funciones.js'
 
 
 class ControladorFunciones {
 
     constructor() {
-        this.funcionesService = new ServiceFunciones()
+        this.funcionesService = new serviceFunciones()
     }
 
 
