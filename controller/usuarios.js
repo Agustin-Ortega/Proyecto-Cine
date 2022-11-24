@@ -7,6 +7,7 @@ class ControladorData {
 
   validarAdmin = async (req, res) => {
     const usuario = req.body;
+    console.log();
     res.json(await this.apiUsuarios.validarAdm(usuario));
   };
 
