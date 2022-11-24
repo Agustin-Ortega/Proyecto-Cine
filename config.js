@@ -5,7 +5,7 @@ dotenv.config();
 const PORT =  8080;
 const URI = process.env.URI || "mongodb://localhost";
 const DB = process.env.DB || "MONGO";
-const BASE = process.env.BASE || "cineBase";
+const BASE = process.env.BASE || "cineDB";
 
 export default {
   PORT,
